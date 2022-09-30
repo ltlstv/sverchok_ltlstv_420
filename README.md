@@ -1,11 +1,11 @@
-#GUIDE
+##GUIDE
 
 HOW TO MAKE THE BEST! CODE  
 
 YOU NEED:
-Wooden carpet [^1]
-C++ [^2]
-/gamemode 1 [^3]
+ - Wooden carpet [^1]
+ - C++ [^2]
+ - /gamemode 1 [^3]
 
 [^1]: Carpet of wool but l is silent
 [^2]: *>* python
