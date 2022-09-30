@@ -13,9 +13,9 @@ YOU NEED:
 
 >You can use C-- instead of C++ there is no actual difference, also there are:
     <!-- i code on php uwu -->
-    -Assembler
-    -Scratch
-    -Arduino UNO based
-    -Yoptascript
+    1.Assembler;
+    2.Scratch;
+    3.Arduino UNO based;
+    4.Yoptascript.
 
 ![javascript](https://lastfm.freetls.fastly.net/i/u/300x300/86f598c9c4931e37c2fa208a782ee293.jpg)
