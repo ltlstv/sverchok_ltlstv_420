@@ -8,8 +8,8 @@ C++ [^2]
 /gamemode 1 [^3]
 
 [^1]: Carpet of wool but l is silent
-[^2]: > python
-[^3]: Unknown command /gamemode creative <--'''[HERE]'''
+[^2]: '>'git python
+[^3]: Unknown command /gamemode creative <-- '[HERE]'
 [^note]:
     You can use C-- instead of C++ there is no actual difference
     Also there are:
