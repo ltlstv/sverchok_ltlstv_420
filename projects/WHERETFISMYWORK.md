@@ -10,7 +10,7 @@ Codepen btw
 
 redacted: I managed to push it
 
-> List (ru)
+# List (ru)
 
 - Булевая логика (bool_01.xlsx, bool_02.xlsx)
 - Перевод в десятичную сист. исчисления (cs_to_10.xlsx)
