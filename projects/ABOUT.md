@@ -18,4 +18,5 @@ redacted: I managed to push it
 - Булевая логика (bool_01.xlsx, bool_02.xlsx)
 - Перевод в десятичную сист. исчисления (cs_to_10.xlsx, cs_to_10.py)
 - Математические таблицы (math_mult_table.xlsx)
+- Юпитер (yopyter.ipynb, hamming.ipynb)
 - Черепахан Питон (bad-apple-turtle.zip) (я прошляпился полпары и не понял, как его запустить, домой; отредактировано: я всё ещё не понял, как его запустить)
