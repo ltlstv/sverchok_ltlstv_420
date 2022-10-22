@@ -1,5 +1,7 @@
 ## GUIDE
 
+PROCEED: ./projects/ABOUT.md
+
 HOW TO MAKE THE BEST! CODE  
 
 YOU NEED:
