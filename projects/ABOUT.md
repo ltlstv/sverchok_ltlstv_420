@@ -16,6 +16,6 @@ redacted: I managed to push it
 # List (ru)
 
 - Булевая логика (bool_01.xlsx, bool_02.xlsx)
-- Перевод в десятичную сист. исчисления (cs_to_10.xlsx)
+- Перевод в десятичную сист. исчисления (cs_to_10.xlsx, cs_to_10.py)
 - Математические таблицы (math_mult_table.xlsx)
-- Черепахан Питон (python-bad-apple-master.zip)
+- Черепахан Питон (turtle/turtle.zip)
