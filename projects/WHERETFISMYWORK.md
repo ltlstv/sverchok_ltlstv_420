@@ -8,6 +8,9 @@ git push -u origin main
 https://codepen.io/ltlstv/full/gOzEWEW
 Codepen btw
 
+https://tolstovilia122.wordpress.com/
+Wordpress btw
+
 redacted: I managed to push it
 
 # List (ru)
