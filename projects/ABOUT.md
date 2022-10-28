@@ -15,7 +15,7 @@ redacted: I managed to push it
 
 # List (ru)
 
-- Булевая логика (bool_01.xlsx, bool_02.xlsx)
+- Булевая логика (bool_01.xlsx, bool_02.xlsx, bool_281022.py)
 - Перевод в десятичную сист. исчисления (cs_to_10.xlsx, cs_to_10.py)
 - Математические таблицы (math_mult_table.xlsx)
 - Юпитер (yopyter.ipynb, hamming.ipynb)
