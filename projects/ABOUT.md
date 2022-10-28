@@ -13,7 +13,7 @@ Wordpress btw
 
 redacted: I managed to push it
 
-13: $A \bigvee (A & B) = A$
+13: \[A \bigvee (A & B) = A\]
 
 # List (ru)
 
