@@ -13,6 +13,8 @@ Wordpress btw
 
 redacted: I managed to push it
 
+13: $A \bigvee (A & B) = A$
+
 # List (ru)
 
 - Булевая логика (bool_01.xlsx, bool_02.xlsx, bool_281022.py)
