@@ -24,10 +24,6 @@ YOU NEED:
 
 ```mermaid
 stateDiagram-v2
-[*] --> Still
-Still --> [*]
-Still --> Moving
-Moving --> Still
-Moving --> Crash
-Crash --> [*]
+Триган --> Автобус
+Автобус --> Триган
 ```
