@@ -21,3 +21,13 @@ YOU NEED:
     4.Yoptascript.
 
 ![javascript](https://lastfm.freetls.fastly.net/i/u/300x300/86f598c9c4931e37c2fa208a782ee293.jpg)
+
+```mermaid
+stateDiagram-v2
+[*] --> Still
+Still --> [*]
+Still --> Moving
+Moving --> Still
+Moving --> Crash
+Crash --> [*]
+```
