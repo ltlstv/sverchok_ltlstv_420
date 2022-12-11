@@ -38,7 +38,7 @@ while choice != 2:
                             return True
             return False
 
-        gen = input("Введите пол\n1 - Мужской\n2 - Женский\n-> ")
+        gen = int(input("Введите пол\n1 - Мужской\n2 - Женский\n-> "))
         name = input('Введите имя\n-> ')
         name = split_(name)
         name.reverse()
