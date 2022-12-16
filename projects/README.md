@@ -11,9 +11,8 @@ Codepen btw
 https://tolstovilia122.wordpress.com/
 Wordpress btw
 
-redacted: I managed to push it
-
-13: $$A \vee (A \land B) = A$$
+https://latexeditor.lagrida.com/
+LaTeX btw
 
 # List (ru)
 
