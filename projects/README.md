@@ -22,3 +22,4 @@ redacted: I managed to push it
 - Математические таблицы (math_mult_table.xlsx)
 - Юпитер (yopyter.ipynb, hamming.ipynb)
 - Черепахан Питон (bad-apple-turtle.zip) (я прошляпился полпары и не понял, как его запустить, домой; отредактировано: я всё ещё не понял, как его запустить)
+- Элементарные программы (имена:namegeneratorinatorcool2000.py; викторина:kahootbeta.py)
