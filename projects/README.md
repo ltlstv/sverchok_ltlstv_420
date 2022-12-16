@@ -17,7 +17,7 @@ LaTeX btw
 # List (ru)
 
 - Булевая логика (bool_01.xlsx, bool_02.xlsx, bool_281022.py)
-- Перевод в десятичную сист. исчисления (cs_to_10.xlsx, cs_to_10.py)
+- Переводы (СС:cs_to_10.xlsx, cs_to_10.py; Морзе:sound_trans.xlsx)
 - Математические таблицы (math_mult_table.xlsx)
 - Юпитер (yopyter.ipynb, hamming.ipynb)
 - Черепахан Питон (bad-apple-turtle.zip) (я прошляпился полпары и не понял, как его запустить, домой; отредактировано: я всё ещё не понял, как его запустить)
