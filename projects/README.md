@@ -16,6 +16,7 @@ LaTeX btw
 
 # List (ru)
 
+- Основа (moduler\...)
 - Булевая логика (bool_01.xlsx, bool_02.xlsx, bool_281022.py)
 - Переводы (СС:cs_to_10.xlsx, cs_to_10.py; Морзе:sound_trans.xlsx)
 - Математические таблицы (math_mult_table.xlsx)
