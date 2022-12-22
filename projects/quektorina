@@ -1,0 +1,20 @@
+def quiz():
+    ans = ['клетки', 'клетки', 'клетки', 'связаны']
+    ques = ['Вы бывали в тюрьме?', 'Клетки. Вас держат в клетке?', 'Клетки. Когда вы не исполняете обязанности, вас держат в коробке?', 'Связаны.']
+    counter = 0
+    for i in range (5):
+        usersAns = input(f'{i + 1}-{ques[i]}')
+        if usersAns == ans[i]:
+            counter += 1
+        else:
+            print("Ложно.")
+    return f'правильных ответов - {counter}, велдан!'
+def solve():
+    x = quiz()
+    return int(input(f'{x} пройти тест повторно?'))
+def foo():
+    arg = 1
+    while arg == 1:
+        arg = solve()
+if __name__ == '__main__':
+    foo()
