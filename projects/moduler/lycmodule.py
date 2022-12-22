@@ -1,25 +1,24 @@
 def quektorina():
-    import time
-    def gaycheck(score):
-        print(que)
-        for i in range(len(que)):
-            print (f'{que[i]} - ',end=' ')
-            if input()==qque[i]:
-                score+=1
+    def quiz():
+        ans = ['клетки', 'клетки', 'клетки', 'связаны']
+        ques = ['Вы бывали в тюрьме?', 'Клетки. Вас держат в клетке?', 'Клетки. Когда вы не исполняете обязанности, вас держат в коробке?', 'Связаны.']
+        counter = 0
+        for i in range (5):
+            usersAns = input(f'{i + 1}-{ques[i]}')
+            if usersAns == ans[i]:
+                counter += 1
             else:
-                score-=1
-
-    print('KAHOOT VER. BETA_420')
-    time.sleep(2)
-
-    que = ['QUE1', 'QUE2']
-    qque = ['ANS1', 'ANS2']
-    score = 0
-
-    gaycheck(score)
-    print(f'SCORE: {score}')
-    time.sleep(2)
-
+                print("Ложно.")
+        return f'правильных ответов - {counter}, велдан!'
+    def solve():
+        x = quiz()
+        return int(input(f'{x} пройти тест повторно?'))
+    def foo():
+        arg = 1
+        while arg == 1:
+            arg = solve()
+    if __name__ == '__main__':
+        foo()
 def hemming():
     a='0123456789'
     nums=list(a)
