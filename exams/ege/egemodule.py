@@ -1,3 +1,13 @@
+def o_five():
+    for N in range(516):
+        b = f'(N:b)'
+        if N % 2 == 0:
+            b += '10'
+        else:
+            b = '1' + b + '01'
+        if int(b, 2) > 516:
+            print(N)
+            break
 def o_seven():
     with open('17.txt') as f:    
         numbers=[int(x) for x in f]
