@@ -24,6 +24,7 @@
 ЕГЭ 8)
   КОД:
   #8
+//Через forforforforfor
 count=0
 for a in range (1,8):
     for b in range (8):
@@ -37,4 +38,23 @@ for a in range (1,8):
                         count+=1
                     if s.count('6')==1 and s.index('6')<len(s)-1 and s.index('6')>0 and int(s[s.index('6')-1])%2==0 and int(s[s.index('6')+1])%2==0:
                         count+=1 // Проверка, если 6 - некое число с индексом от 1 до len()-1
+print(count)
+//Через itertools
+count=0
+from itertools import product
+for a, b, c, d, e in product(range(1,8), range(8), range(8), range(8),range(8)): 
+    s=str(a)+str(b)+str(c)+str(d)+str(e)
+    if s.count('6')==1 and s.index('6')==len(s)-1 and int(s[len(s)-2])%2==0: count+=1
+    if s.count('6')==1 and s.index('6')==0 and int(s[1])%2==0: count+=1
+    if s.count('6')==1 and s.index('6')<len(s)-1 and s.index('6')>0 and int(s[s.index('6')-1])%2==0 and int(s[s.index('6')+1])%2==0:
+        count+=1
+print(count)
+//
+!!!ВСЕ ЧИСЛА, состоящие из 0,1,2,3!!!
+count=0
+from itertools import product
+for a, b, c in product(range(4),range(4),range(4)):
+    s=str(a)+str(b)+str(c)
+    print(s)
+    count+=1
 print(count)
