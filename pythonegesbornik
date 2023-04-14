@@ -1,0 +1,83 @@
+import PySimpleGUI as sg
+
+sg.theme('LightBlue2')  # Set the theme
+
+s=['1','2','3','12','14','пароль', 'анекдот']
+a=[
+'''
+for i in range():
+    print('')''',
+'''
+for x in range():   
+    print('')''',
+'''
+for z in range():
+    print('')''',
+'''
+tt='8'*86
+while ('1111'in(tt) or '8888'in(tt)):
+    if '1111'in(tt):
+        tt = tt.replace('1111','8',1)
+    else:
+         tt = tt.replace('8888','11',1)
+    print(tt)''',
+'''
+tt=3*16**2018-2*8**1028-2**1050-3*4**1100-2022
+s=[]
+while tt!=0:
+    s.append(str(tt%4))
+    tt=tt//4
+
+s=''.join(s)
+print(s.count('3'))''',
+'''
+чё типо самый умный''',
+'''
+Штирлиц всегда спал как убитый
+
+его даже дважды обводили мелом'''
+]
+# Define the layout
+inp_layout = [[sg.Text('кто по масти?')],      
+                 [sg.InputText(key='-IN-')],      
+                 [sg.Submit('валяй'), sg.Cancel('ты чё старый')]]   
+
+layout = [[sg.Text('сюда давать', font=('Arial', 12)), sg.InputText(key='input')],
+          [sg.Text('сюда брать', font=('Arial', 12)), sg.Text('', size=(40, 1), key='output')],
+          [sg.Combo(s, default_value=s[0], s=(15,22), enable_events=True, readonly=True, k='-COMBO-', key='Combo'),
+          sg.Output(s=(40,10), key='outputt')],
+          [sg.Button('Process Input', font=('Arial', 12), button_color=('white', '#4CAF50'), key='process'),
+           sg.Button('Someth', font=('Arial', 12), button_color=('white', '#4CAF50'), key='button')]]
+
+# Create the window
+window = sg.Window('вопрос брат', inp_layout)    
+event, values = window.read()    
+window.close()
+
+text_input = values['-IN-']    
+sg.popup('зачётно', text_input)
+
+window = sg.Window('егэ шашки', layout)
+
+# Event loop
+while True:
+    event, values = window.read()
+
+    # Exit the app when the window is closed
+    if event == sg.WINDOW_CLOSED:
+        break
+
+    # Process the input and update the output when the button is clicked
+    if event == 'process':
+        input_text = values['input']
+        choice=a[int(values['Combo'])-1]
+        #print(choice)
+        window['input'].update('')
+        window['output'].update(input_text)
+        window['outputt'].update('')
+        window['outputt'].update(choice)
+    if event == 'button':
+        break
+
+# Close the window
+window.close()
