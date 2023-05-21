@@ -2,16 +2,8 @@
 
 PROCEED: ./projects/ABOUT.md
 
-HOW TO MAKE THE BEST! CODE  
-
-YOU NEED:
- - Wooden carpet [^1]
- - C++ [^2]
- - /gamemode 1 [^3]
-
-[^1]: Carpet of wool but l is silent
-[^2]: *>* python
-[^3]: Unknown command /gamemode creative <-- *[HERE]*
+ - /gamemode 1 [^1]
+[^1]: Unknown command /gamemode creative <-- *[HERE]*
 
 >You can use C-- instead of C++ there is no actual difference, also there are:
     <!-- i code on php uwu -->
