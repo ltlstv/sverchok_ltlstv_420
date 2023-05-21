@@ -1,5 +1,3 @@
-I forgot to push it I'm very sorry
-\Also pushing guide
 ```
 git add
 git commit
@@ -14,7 +12,7 @@ Wordpress btw
 https://latexeditor.lagrida.com/
 LaTeX btw
 
-# List (ru)
+# List (ru) (old)
 
 - Основа, сборник (moduler\...)
 - Булевая логика (bool_01.xlsx, bool_02.xlsx, bool_281022.py)
