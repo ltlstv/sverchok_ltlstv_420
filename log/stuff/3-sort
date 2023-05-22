@@ -1,0 +1,22 @@
+a,b,c=map(float, input().split())
+def change(a,b):
+    a=(a+b)/2
+    b=a-b
+    if b<=a:
+        b=a+b
+        a=2*a-b
+    elif a<=b:
+        a=a+b
+        b=a-2*b
+    return a,b
+if c<=a and c<=b and a<=b:
+    a,b=change(a,b)
+    a,c=change(a,c)
+elif c<=a and c<=b and b<=a:
+    a,c=change(a,c)
+elif a<=b and a<=c and c<=b:
+    c,b=change(c,b)
+elif b<=a and b<=c and c<=a:
+    a,b=change(a,b)
+    b,c=change(b,c)
+print(a,b,c)
